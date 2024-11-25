@@ -1,0 +1,73 @@
+/* Definição de estilo global */
+body {
+    color: white;
+    background: #242424;
+    margin: 0;
+    font-size: 25px;
+}
+
+/* Estilo do header */
+header {
+    font-size: 50px;
+    margin: 0;
+    padding: 20px;
+    color: rgb(229, 9, 20);
+    font-weight: bold;
+    background: #323232;
+    border-bottom: 1px solid rgb(229, 9, 20);
+}
+
+h2{
+  padding: 15px;
+  font-size: 30px;
+    margin: 0;
+    padding: 10px;
+    color: rgb(229, 9, 20);
+    font-weight: bold;
+    background: #323232;
+   
+}
+
+
+/* Responsividade do iframe */
+iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    display: flex;
+    margin: 0 auto;
+}
+
+/* Estilo do texto */
+.texto {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Layout das seções (alinhamento flex) */
+
+
+img {
+    height: 200px;
+}
+
+.catvideos{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+     .catvideos img{
+
+        opacity: 0.5;
+        height: 190px;
+     }
+
+     .catvideos img:hover{
+        opacity: 1.0;
+        height: 200px;
+        border: 1px solid rgb(229, 9, 20);
+     }
